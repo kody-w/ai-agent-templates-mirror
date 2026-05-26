@@ -5,6 +5,18 @@
 > the one-click deploy operates on. The deploy pipeline itself is **not built here yet**; this file
 > reserves the shape so it can be landed cleanly.
 
+## Try it
+
+- **Live demo (this process, end-to-end):** [`oneclick-demo/`](oneclick-demo/) — a synced,
+  scan-to-watch **M365 Copilot** demo of one-click deploying the **Predictive Asset Maintenance
+  Intelligence** stack (8 agents → one Copilot Studio agent). Open it, drive it with **Next ▶**; hit
+  **📷 Share** and scan the QR to watch it live on another device.
+  → https://kody-w.github.io/ai-agent-templates-mirror/oneclick-demo/
+- **Conversational agent (shell):** [`OneClick_agent.py`](OneClick_agent.py) — a single-file agent
+  pointed at this repo. Drop it in a brainstem and say *"deploy the predictive asset maintenance
+  stack to Copilot Studio."* Shell/demo: it reads this repo's `manifest.json`, finds the stack, and
+  narrates the sequential MCS deploy. The real pipeline lands below. (All synthetic — no PII.)
+
 ## Goal
 
 One-click deploy each agent stack to **Microsoft Copilot Studio (MCS)** — agent-by-agent, with a
