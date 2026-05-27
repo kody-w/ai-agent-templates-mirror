@@ -60,7 +60,7 @@ class MeetingPrepAgent(BasicAgent):
             },
             "🗣️ Opening (Minutes 0-5)": {
                 "Icebreaker": f"'{stakeholder['name']}, thanks for the time. I know you're in week 6 of your 100-day plan - how's it going?'",
-                "Credibility": "'I worked with our VP Eng who was your colleague at Amazon'",
+                "Credibility": "'I worked with our VP Eng who was your colleague at a major tech company'",
                 "Permission": "'I have a 12-minute demo that shows how we helped 3 manufacturers achieve 30% cost reduction. Sound relevant?'",
                 "What NOT to say": "Avoid: 'Tell me about your business' (unprepared)"
             },
@@ -138,7 +138,7 @@ class MeetingPrepAgent(BasicAgent):
             "3 printed case studies: Fabrikam, Northwind, Fourth Coffee",
             "ROI calculator (tablet with interactive tool)",
             "1-page pilot proposal PDF",
-            "Business card with handwritten note: 'Amazon connection: Alex Zhang'"
+            "Business card with handwritten note: 'connection at a major tech company: Alex Zhang'"
         ]
 
     def _post_meeting_checklist(self) -> Dict[str, str]:

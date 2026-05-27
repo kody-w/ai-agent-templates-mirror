@@ -334,7 +334,7 @@ Simulated complete 8-step conversation:
 
 **1. Dr. Sarah Chen - CTO (Influence: 100/100)**
 - NEW HIRE (6 weeks) - ZERO CONTACT YET
-- Background: Microsoft Azure → AWS → Contoso
+- Background: Microsoft Azure → a major cloud provider → Contoso
 - Recent LinkedIn: "Looking for partners in manufacturing + AI"
 - Risk: Will re-evaluate ALL vendors
 - Action: URGENT - Alex Zhang warm intro THIS WEEK

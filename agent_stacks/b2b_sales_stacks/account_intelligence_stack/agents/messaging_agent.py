@@ -98,7 +98,7 @@ class MessagingAgent(BasicAgent):
 
     def _linkedin_connection_template(self, stakeholder: Dict) -> Dict[str, Any]:
         return {
-            "Message": f"Hi {stakeholder['name']} - {stakeholder['mutual_connections'][0]} (my VP Eng, your former Amazon colleague) mentioned you're leading an impressive AI transformation at {stakeholder['company']}. I work with manufacturers implementing AI-powered operations and would love to exchange ideas. Looking forward to our coffee chat tomorrow morning.",
+            "Message": f"Hi {stakeholder['name']} - {stakeholder['mutual_connections'][0]} (my VP Eng, your former colleague at a major tech company) mentioned you're leading an impressive AI transformation at {stakeholder['company']}. I work with manufacturers implementing AI-powered operations and would love to exchange ideas. Looking forward to our coffee chat tomorrow morning.",
             "Character Count": "287 / 300 (optimized for LinkedIn limit)",
             "Why This Works": "Personal connection, mutual respect, value-first (not sales-y)",
             "Send Timing": "Tonight at 6pm (she checks LinkedIn evenings)",

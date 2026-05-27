@@ -231,7 +231,7 @@ class WinProbabilityAgent(D365BaseAgent):
 
         competitors = []
         if num_competitors > 0:
-            possible_competitors = ["Salesforce", "HubSpot", "Microsoft", "Oracle"]
+            possible_competitors = ["Competitor B", "HubSpot", "Microsoft", "Competitor A"]
             competitors = random.sample(possible_competitors, min(num_competitors, len(possible_competitors)))
 
         return {

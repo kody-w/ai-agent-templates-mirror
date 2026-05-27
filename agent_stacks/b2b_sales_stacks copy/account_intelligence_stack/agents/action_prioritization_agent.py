@@ -50,7 +50,7 @@ class ActionPrioritizationAgent(BasicAgent):
                 "⏰ Next 30 Minutes (HIGHEST PRIORITY)": {
                     "Action": "Call Alex Zhang (your VP Eng) for warm intro to CTO Sarah",
                     "Why Now": "You need CTO meeting THIS WEEK - warm intro is fastest path",
-                    "Script": "'Alex - remember Sarah Chen from your Amazon days? She's now CTO at my top account. Can you intro me? I need 30min with her this week to save a $2M deal.'",
+                    "Script": "'Alex - remember Sarah Chen from your days at a major tech company? She's now CTO at my top account. Can you intro me? I need 30min with her this week to save a $2M deal.'",
                     "Expected Outcome": "Alex agrees to email intro within 2 hours",
                     "Priority Score": "100/100 - Nothing is more important",
                     "Time Investment": "15 minutes"

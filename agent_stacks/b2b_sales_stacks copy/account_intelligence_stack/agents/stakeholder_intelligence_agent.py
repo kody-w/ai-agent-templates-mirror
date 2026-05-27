@@ -215,7 +215,7 @@ class StakeholderIntelligenceAgent(BasicAgent):
             "sarah.chen@contoso.com": {
                 "linkedin_url": "linkedin.com/in/sarahchen",
                 "connections": 4800,
-                "career_summary": "Microsoft Azure (8yr) → Amazon AWS (4yr) → Startup Founder",
+                "career_summary": "Microsoft Azure (8yr) → a major cloud provider (4yr) → Startup Founder",
                 "education": "PhD Computer Science MIT | MS Stanford | BS Berkeley",
                 "posts_last_30_days": 6,
                 "engagement_rate": "high",

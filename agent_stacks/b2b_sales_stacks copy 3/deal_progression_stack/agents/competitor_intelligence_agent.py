@@ -70,7 +70,7 @@ class CompetitorIntelligenceAgent(D365BaseAgent):
         """Generate realistic demo competitive data"""
         competitors_db = [
             {
-                "name": "Salesforce",
+                "name": "Competitor B",
                 "strengths": ["Brand recognition", "Ecosystem", "Features"],
                 "weaknesses": ["Price", "Complexity", "Implementation time"],
                 "positioning": "Better TCO, faster implementation, superior support"
@@ -146,7 +146,7 @@ class CompetitorIntelligenceAgent(D365BaseAgent):
     def _get_competitive_strategy(self, competitors):
         """Get competitive strategy based on competitors"""
         strategies = {
-            "Salesforce": "Emphasize integration capabilities, TCO advantage, and faster implementation",
+            "Competitor B": "Emphasize integration capabilities, TCO advantage, and faster implementation",
             "HubSpot": "Focus on enterprise scalability, advanced features, and long-term platform stability",
             "Microsoft Dynamics": "Highlight specialized industry solutions and superior support model"
         }
@@ -162,7 +162,7 @@ class CompetitorIntelligenceAgent(D365BaseAgent):
             "Schedule technical comparison session highlighting key differentiators"
         ]
 
-        if "Salesforce" in competitors:
+        if "Competitor B" in competitors:
             actions.append("Emphasize implementation timeline - show 3-month vs 9-month advantage")
 
         if "HubSpot" in competitors:

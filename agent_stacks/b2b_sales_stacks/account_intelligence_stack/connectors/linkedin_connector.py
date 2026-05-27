@@ -286,10 +286,10 @@ class LinkedInConnector(BaseConnector):
                     },
                     {
                         "title": "Director of Engineering",
-                        "company": "Amazon Web Services",
+                        "company": "a major cloud provider",
                         "duration": "4 years",
                         "dates": "2017-06 to 2021-09",
-                        "description": "Built EC2 container services"
+                        "description": "Built container services"
                     },
                     {
                         "title": "Senior Software Engineer",

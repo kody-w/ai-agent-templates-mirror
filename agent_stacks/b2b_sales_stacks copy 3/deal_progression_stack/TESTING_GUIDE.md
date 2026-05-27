@@ -430,7 +430,7 @@ python agents/competitor_intelligence_agent.py
     },
     "competitor_analysis": [
       {
-        "competitor_name": "Salesforce",
+        "competitor_name": "Competitor B",
         "deals_present": 12,
         "total_value": 3200000,
         "win_rate_against": 0.45,
@@ -445,7 +445,7 @@ python agents/competitor_intelligence_agent.py
         "opportunity_name": "Contoso Cloud Suite",
         "value": 450000,
         "stage": "Proposal",
-        "competitors": ["Salesforce", "Microsoft"],
+        "competitors": ["Competitor B", "Microsoft"],
         "competitive_strategy": "Emphasize integration capabilities and TCO",
         "recommended_actions": [
           "Share TCO calculator",

@@ -790,13 +790,13 @@
             messages: [
                 {
                     role: 'user',
-                    content: `I need to return the Nike Air Max shoes I ordered last week. Order #48392. They\'re too small and I want size 11 instead of 10.`,
+                    content: `I need to return the running shoes from a major apparel brand I ordered last week. Order #48392. They\'re too small and I want size 11 instead of 10.`,
                     typingTime: 1500,
                     delay: 1000
                 },
                 {
                     role: 'assistant',
-                    content: `I\'ll help you process the exchange for your Nike Air Max shoes from order #48392. Let me pull up your order details and check the availability of size 11...`,
+                    content: `I\'ll help you process the exchange for your running shoes from a major apparel brand from order #48392. Let me pull up your order details and check the availability of size 11...`,
                     typingTime: 2000,
                     delay: 1500,
                     action: 'step1'
@@ -808,7 +808,7 @@
             messages: [
                 {
                     role: 'assistant',
-                    content: 'Verifying your order and return eligibility...\n\n📦 Order #48392 found\n👟 Nike Air Max 270 - Black/White\n📅 Purchased: March 22, 2024\n✅ Within 30-day return window\n\nChecking size 11 availability in our inventory...',
+                    content: 'Verifying your order and return eligibility...\n\n📦 Order #48392 found\n👟 a major apparel brand running shoe - Black/White\n📅 Purchased: March 22, 2024\n✅ Within 30-day return window\n\nChecking size 11 availability in our inventory...',
                     typingTime: 2500,
                     delay: 2000,
                     action: 'step2'
@@ -825,8 +825,8 @@
                     resultData: {
                         'Exchange Details': {
                             'RMA Number': 'RMA-2024-48392-EX',
-                            'Original Item': 'Nike Air Max 270 - Size 10',
-                            'Exchange Item': 'Nike Air Max 270 - Size 11',
+                            'Original Item': 'a major apparel brand running shoe - Size 10',
+                            'Exchange Item': 'a major apparel brand running shoe - Size 11',
                             'Status': 'Size 11 reserved for you',
                             'Price Difference': '$0.00 (same model)'
                         },
